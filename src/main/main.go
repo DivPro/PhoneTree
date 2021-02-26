@@ -6,6 +6,8 @@ import (
 	"os"
 )
 
+// url: https://rossvyaz.gov.ru/data/DEF-9xx.csv
+
 var tree = operator.NewTree(operator.NewTreeNode("9", 1, nil))
 var parser = operator.NewParser(os.Args[1])
 
